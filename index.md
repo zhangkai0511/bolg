@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /python
+      link: https://vitepress.dev/zh/guide/markdown
 
 
 features:

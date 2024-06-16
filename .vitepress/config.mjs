@@ -5,6 +5,9 @@ export default defineConfig({
   base:'/bolg/',
   title: "学习笔记",
   description: "A VitePress Site",
+  markdown: {
+    lineNumbers: true
+  },
   
   themeConfig: {
     logo: '/icon.png',
