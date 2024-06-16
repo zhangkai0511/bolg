@@ -11,21 +11,29 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Python', link: '/python/' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Python',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Python基础', link: '/python/index' },
+
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+    ],
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
+    outline {
+      level: [2,6],
+      label: 页面导航
+    }
   }
 })

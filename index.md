@@ -11,11 +11,9 @@ hero:
     alt: logo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 开始
+      link: /python
+
 
 features:
   - title: Feature A
