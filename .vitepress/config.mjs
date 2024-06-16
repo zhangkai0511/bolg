@@ -31,7 +31,7 @@ export default defineConfig({
       prev: '上一篇',
       next: '下一篇'
     },
-    outline {
+    outline: {
       level: [2,6],
       label: 页面导航
     }
