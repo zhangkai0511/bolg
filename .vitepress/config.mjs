@@ -5,7 +5,9 @@ export default defineConfig({
   base:'/bolg/',
   title: "学习笔记",
   description: "A VitePress Site",
+  
   themeConfig: {
+    logo: '/icon.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },

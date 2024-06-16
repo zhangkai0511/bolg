@@ -6,6 +6,9 @@ hero:
   name: "学习笔记"
   # text: "A VitePress Site"
   tagline: 持续学习，持续进步
+  image:
+    src: /logo.png
+    alt: logo
   actions:
     - theme: brand
       text: Markdown Examples
